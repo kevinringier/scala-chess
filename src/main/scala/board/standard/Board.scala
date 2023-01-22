@@ -1,4 +1,4 @@
-package board
+package board.standard
 
 import piece.Piece
 
