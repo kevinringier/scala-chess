@@ -5,8 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8db140c-1661-4e30-a576-cdb8ef837247" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/board/Position.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/board/PositionConstituent.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/board/standard/File.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/board/standard/Rank.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/board/standard/StandardPosition.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/piece/standard/Bishop.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/piece/standard/King.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/piece/standard/Knight.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/piece/standard/Pawn.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/piece/standard/Queen.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/piece/standard/Rook.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/piece/standard/StandardPiece.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/piece/Rook.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/piece/Rook.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/board/StandardBoard.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/board/standard/Board.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/main.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/main.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/piece/Piece.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/piece/Piece.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/piece/Rook.scala" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +41,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/main/scala/piece/Rook.scala" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/scala/piece/standard/Rook.scala" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="72b45z3a" />
@@ -47,11 +63,11 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "scala_project_settings_configurable.last_selected_tab_index": "6",
-    "settings.editor.selected.configurable": "preferences.sourceCode.Scala"
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
   <component name="RunManager">

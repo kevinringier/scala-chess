@@ -1,5 +1,7 @@
 package piece.standard
 
-class Knight {
+import piece.Team
 
-}
+case class Knight(team: Team) extends StandardPiece
+
+

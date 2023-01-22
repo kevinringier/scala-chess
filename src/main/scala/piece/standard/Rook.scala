@@ -1,5 +1,6 @@
-package piece
+package piece.standard
 
+import piece.{Piece, Team}
 
 case class Rook(team: Team) extends Piece
 

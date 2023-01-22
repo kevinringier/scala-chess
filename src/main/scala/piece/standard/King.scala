@@ -1,3 +1,5 @@
 package piece.standard
 
-case class King ()
+import piece.Team
+
+case class King(team: Team) extends StandardPiece

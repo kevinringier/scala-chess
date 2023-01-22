@@ -1,3 +1,3 @@
-package position
+package board
 
 trait PositionConstituent

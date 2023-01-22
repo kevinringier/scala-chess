@@ -1,3 +1,5 @@
 package piece.standard
 
-case class Pawn ()
+import piece.Team
+
+case class Pawn(team: Team) extends StandardPiece

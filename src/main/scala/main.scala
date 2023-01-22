@@ -1,6 +1,6 @@
 import piece.Position
-import piece.Rook
 import piece.rookMoves
+import piece.standard.Rook
 
 @main def run() =
   println("This is the chess engine!")
@@ -13,7 +13,10 @@ import piece.rookMoves
   val rook = Rook()
 
 
+
   val legalMoves = rookMoves.moves(Position(0,0))
+
+  legalMoves.foreach(println)
 
   val legalMoves2 = rook.extMoves(Position(0,0))
 

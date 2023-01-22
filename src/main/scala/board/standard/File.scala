@@ -1,7 +1,6 @@
-package position.standard
+package board.standard
 
-import board.standard.*
-import position.PositionConstituent
+import board.PositionConstituent
 
 sealed trait File extends PositionConstituent
 case object A extends File

@@ -2,7 +2,7 @@ package board.standard
 
 import piece.Piece
 
-case class StandardBoard(board: List[Option[Piece]]):
+case class Board(board: List[Option[Piece]]):
   def showBoard(): Unit =
     for pieceOpt <- board
     do pieceOpt match

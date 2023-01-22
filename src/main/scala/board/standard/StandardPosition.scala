@@ -1,8 +1,7 @@
-package position.standard
+package board.standard
 
+import board.{Position2, Position2ToArrayIndex}
 import board.standard.{File, Rank, StandardPosition}
-import position.{Position2, Position2ToArrayIndex, StandardPosition}
-
 
 case class StandardPosition[R <: Rank, F <: File](rank: R, file: F) extends Position2[R, F]
 

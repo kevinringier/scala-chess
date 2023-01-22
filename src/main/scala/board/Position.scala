@@ -1,15 +1,14 @@
-package position
+package board
 
-import board.Position2
-
+trait Position
 // One-dimensional Position
-trait Position1[T1 <: PositionConstituent]
+trait Position1[T1 <: PositionConstituent] extends Position
 
 // Two-dimensional Position
-trait Position2[T1 <: PositionConstituent, T2 <: PositionConstituent]
+trait Position2[T1 <: PositionConstituent, T2 <: PositionConstituent] extends Position
 
 // Three-dimensional Position
-trait Position3[T1 <: PositionConstituent, T2 <: PositionConstituent, T3 <: PositionConstituent]
+trait Position3[T1 <: PositionConstituent, T2 <: PositionConstituent, T3 <: PositionConstituent] extends Position
 
 
 // All boards will be stored within a single 0-based index collection. This typeclass

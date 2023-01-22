@@ -1,3 +1,5 @@
 package piece.standard
 
-case class Bishop ()
+import piece.Team
+
+case class Bishop(team: Team) extends StandardPiece
