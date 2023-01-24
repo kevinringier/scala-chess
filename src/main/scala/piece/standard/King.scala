@@ -2,4 +2,5 @@ package piece.standard
 
 import piece.Team
 
-case class King(team: Team) extends StandardPiece
+case class King(team: Team) extends StandardPiece:
+  val name = "King"

@@ -1,0 +1,5 @@
+package board.dimension.two
+
+import board.PositionConstituent
+
+trait RowPositionConstituent extends PositionConstituent

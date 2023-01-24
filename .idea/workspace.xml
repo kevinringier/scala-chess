@@ -5,24 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8db140c-1661-4e30-a576-cdb8ef837247" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/board/Position.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/board/PositionConstituent.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/board/standard/File.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/board/standard/Rank.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/board/standard/StandardPosition.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/piece/standard/Bishop.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/piece/standard/King.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/piece/standard/Knight.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/piece/standard/Pawn.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/piece/standard/Queen.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/piece/standard/Rook.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/piece/standard/StandardPiece.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/board/Board.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/board/dimension/two/ColumnPositionConstituent.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/board/dimension/two/RowPositionConstituent.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/board/dimension/two/TwoDimensionalBoard.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/movement/Direction.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/movement/Move.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/movement/dimension/two/TwoDimensionMove.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/board/StandardBoard.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/board/standard/Board.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/board/Position.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/board/Position.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/board/standard/Board.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/board/dimension/two/standard/StandardBoard.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/board/standard/File.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/board/dimension/two/standard/File.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/board/standard/Rank.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/board/dimension/two/standard/Rank.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/board/standard/StandardPosition.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/board/dimension/two/standard/StandardPosition.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/main.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/main.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/piece/Piece.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/piece/Piece.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/piece/Rook.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/piece/standard/Bishop.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/piece/standard/Bishop.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/piece/standard/King.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/piece/standard/King.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/piece/standard/Knight.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/piece/standard/Knight.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/piece/standard/Pawn.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/piece/standard/Pawn.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/piece/standard/Queen.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/piece/standard/Queen.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/piece/standard/Rook.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/piece/standard/Rook.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,18 +60,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "scala_project_settings_configurable.last_selected_tab_index": "6",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;scala_project_settings_configurable.last_selected_tab_index&quot;: &quot;6&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="run" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="run" />
@@ -111,6 +113,17 @@
       <updated>1673645589450</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -1,8 +1,11 @@
 package piece.standard
 
 import piece.{Piece, Team}
+import movement.dimension.two.Slides
+import movement.Up
 
-case class Rook(team: Team) extends Piece
+case class Rook(team: Team) extends StandardPiece with Slides:
+  val name = "Rook"
 
 //given rookMoves: Moveable[Rook] with
   //def moves(pos: Position): List[Position] =

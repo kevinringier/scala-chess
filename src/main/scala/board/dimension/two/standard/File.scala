@@ -1,8 +1,8 @@
-package board.standard
+package board.dimension.two.standard
 
-import board.PositionConstituent
+import board.dimension.two.ColumnPositionConstituent
 
-sealed trait File extends PositionConstituent
+sealed trait File extends ColumnPositionConstituent
 case object A extends File
 case object B extends File
 case object C extends File

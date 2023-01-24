@@ -1,8 +1,8 @@
-package board.standard
+package board.dimension.two.standard
 
-import board.PositionConstituent
+import board.dimension.two.RowPositionConstituent
 
-sealed trait Rank extends PositionConstituent
+sealed trait Rank extends RowPositionConstituent
 case object One extends Rank
 case object Two extends Rank
 case object Three extends Rank

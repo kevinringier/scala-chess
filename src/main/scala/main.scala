@@ -1,24 +1,36 @@
-import piece.Position
-import piece.rookMoves
-import piece.standard.Rook
+import board.dimension.two.standard.*
+import board.dimension.two.standard.{standardPositionToTwoDimensionPosition, twoDimensionCoordinateToStandardPosition}
+import movement.{TwoDimensionDirection, Up}
+import movement.dimension.two.TwoDimensionMove
+import movement.dimension.two.slidablePiece
+import piece.standard.{Rook, White}
 
 @main def run() =
   println("This is the chess engine!")
-  val test = Position(1,1)
-  println(test.convertToArrayIndex)
+  val position: StandardPosition[Rank, File] = StandardPosition(One, A);
+  println(position)
 
-  val test2 = Position(8,8)
-  println(test2.convertToArrayIndex)
+  val move = TwoDimensionMove[TwoDimensionDirection, Rank, File, StandardPosition[Rank, File]]()
 
-  val rook = Rook()
+  val newPosition = move(position, new Up{})
+
+  val newPositions = slidablePiece.slide(move, newPosition.get, new Up{})
+
+  println(newPosition)
+
+  newPositions.foreach(println)
+
+  val rook = Rook(White)
+
+  // movement should be implied on the slide. not a concrete argument
+  // position should be provided
+  // this still needs work but I think we are approaching the spirit.
+  val rookMoves = rook.extSlides(move, position, new Up{})  // this api is trash, can the direction be pulled off the type somehow?
+
+  rookMoves.foreach(println)
 
 
 
-  val legalMoves = rookMoves.moves(Position(0,0))
-
-  legalMoves.foreach(println)
-
-  val legalMoves2 = rook.extMoves(Position(0,0))
 
 
 
